@@ -7,7 +7,7 @@ function Itemtarjeta(props) {
                             <img src={props.image} alt=""/>
                         </div>
                         <div className="uk-card-body">
-                            <ul>
+                            <ul className="uk-list uk-list-striped">
                                 <li>{props.name}</li>
                                 <li>{props.status}</li>
                                 <li>{props.species}</li>
